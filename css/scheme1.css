@@ -1,0 +1,80 @@
+#product_header_bar {
+	background-color: #000;
+	color: #fff;
+}
+
+#shop_container {
+    color: #333;
+}
+#shop_container strong {
+    color: #333;
+}
+#shop_container p {
+    font-size: 14px;
+    color: #999;
+}
+
+#shop_container button {
+    background-color: #000;
+    color: #fff;
+}
+#shop_container button:hover{
+    background-color: #666;
+}
+
+ul#categories li {
+    background-color: #fff;
+    color: #000;
+}
+ul#categories li.active {
+    background-color: #333;
+    color: #fff;
+}
+ul#categories li:hover {
+    background-color: #f8f8f8;
+}
+ul#categories li.active:hover {
+    background-color: #666;
+}
+ul#categories ul li {
+    background-color: #f3f3f3;
+    color: #000;
+}
+ul#categories ul li:hover {
+    background-color: #f8f8f8;
+}
+
+div.product_info {
+    background-color: transparent;
+}
+ul#product_list li div.product_info span.title {
+    color: #666;
+}
+ul#product_list li div.product_info span.price {
+    color: #333;
+}
+ul#product_list li div.product_info span.special {
+    color: red;
+}
+
+
+ul#product_list li div.product_buttons a {
+    background-color: #111;
+    color: #fff;
+}
+ul#product_list li div.product_buttons a:hover {
+    background-color: #666;
+    color: #fff;
+}
+
+a.gallery-arrow {
+    color: #fff;
+    background-color: rgba(0,0,0,0.2);
+}
+a.gallery-arrow:hover {
+    background-color: rgba(0,0,0,0.18);
+}
+
+div#product_info ul.tabs li.active {
+    color: #333;
+}

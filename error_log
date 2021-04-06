@@ -1,0 +1,5 @@
+[28-Mar-2016 09:24:17 Africa/Johannesburg] PHP Fatal error:  Call to undefined function get_header() in /home/sionseum/public_html/wp-content/themes/sionsoft/index.php on line 2
+[28-Mar-2016 09:24:20 Africa/Johannesburg] PHP Fatal error:  Call to undefined function get_header() in /home/sionseum/public_html/wp-content/themes/sionsoft/index.php on line 2
+[01-Apr-2016 13:04:59 Africa/Johannesburg] PHP Fatal error:  Call to undefined function get_header() in /home/sionseum/public_html/wp-content/themes/sionsoft/index.php on line 2
+[01-Oct-2016 21:20:57 Africa/Johannesburg] PHP Fatal error:  Call to undefined function get_header() in /home/sionseum/public_html/wp-content/themes/sionsoft/index.php on line 2
+[01-Oct-2016 21:20:57 Africa/Johannesburg] PHP Fatal error:  Call to undefined function get_header() in /home/sionseum/public_html/wp-content/themes/sionsoft/index.php on line 2
