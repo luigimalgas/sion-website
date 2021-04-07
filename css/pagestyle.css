@@ -9,11 +9,12 @@
 	position:relative;
 	float:left;
 }	
-.float_3333{
-	width:33.33%;
-	position:relative;
-	float:left;
-}	
+.float_3333 {
+    width: 30%;
+    position: relative;
+    float: left;
+    padding: 10px;
+}
 .float_1666{
 	width:16.66%;
 	position:relative;
@@ -25,10 +26,11 @@
 	float:left;
 }	
 
-.float_50{
-	width:50%;
-	position:relative;
-	float:left;
+.float_50 {
+    width: 47%;
+    position: relative;
+    float: left;
+    padding: 10px;
 }	
 .float_33{
 	width:34%;
@@ -156,7 +158,6 @@
 
 .layout_1{ width:100%; }
 .layout_2{ width:100%; }
-.layout_3{ width:100%; }
 .layout_4{ width:100%; }
 .layout_5_left{ width:100%; }
 .layout_5_right{ width:100%; }
@@ -193,4 +194,10 @@
 .layout_25{ width:100%; }
 
 .layout_31_top{ width:100%; }
+}
+.block.vui_block102 a {
+    text-decoration: none;
+}
+#back_to_top_arrow img {
+    height: 90px;
 }
