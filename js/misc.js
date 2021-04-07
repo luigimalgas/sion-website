@@ -2,7 +2,7 @@ var fixed_header = 0;
 
 var fixed_menu = 1;
 
-document.domain = "sionsoft.co.za";
+//document.domain = "sionsoft.co.za";
 $(function() {
   // parallax stuff
 
