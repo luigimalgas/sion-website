@@ -24,21 +24,23 @@ $(function() {
     });
   }
 
-  if (fixed_menu == 1 && $("#blockmenu").length) {
-    var mtop = $("#blockmenu").offset().top;
+	var mtop = null;
+  var name = "#blockmenu";
+  if (fixed_menu == 1 && $(name).length) {
+    var mtop = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")))
     $(window).scroll(function() {
       if ($(window).scrollTop() > mtop) {
-        $("#blockmenu").addClass("fixed_menu");
+        $(name).addClass("fixed_menu");
         if (
-          $("#blockmenu")
+          $(name)
             .parent()
             .css("background-color").length == 0
         )
-          $("#blockmenu")
+          $(name)
             .parentsUntil("[class*=row]")
             .css("background", "inherit");
       } else {
-        $("#blockmenu").removeClass("fixed_menu");
+        $(name).removeClass("fixed_menu");
       }
 
       animateBlock();
