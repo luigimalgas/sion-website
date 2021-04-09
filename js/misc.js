@@ -24,34 +24,28 @@ $(function() {
     });
   }
 
-	var mtop = null;
-  var name = "#blockmenu";
-  if (fixed_menu == 1 && $(name).length) {
-    var mtop = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")));
-    $(window).scroll(function() {
-      // if ($(window).scrollTop() > mtop) {
-      //   $(name).addClass("fixed_menu");
-      //   if (
-      //     $(name)
-      //       .parent()
-      //       .css("background-color").length == 0
-      //   )
-      //     $(name)
-      //       .parentsUntil("[class*=row]")
-      //       .css("background", "inherit");
-      // } else {
-      //   $(name).removeClass("fixed_menu");
-      // }
+  if (fixed_menu == 1 && $("#blockmenu").length) {
+    var mtop = $("#blockmenu").offset().top;
+    // $(window).scroll(function() {
+    //   if ($(window).scrollTop() > mtop) {
+    //     $("#blockmenu").addClass("fixed_menu");
+    //     if (
+    //       $("#blockmenu")
+    //         .parent()
+    //         .css("background-color").length == 0
+    //     )
+    //       $("#blockmenu")
+    //         .parentsUntil("[class*=row]")
+    //         .css("background", "inherit");
+    //   } else {
+    //     $("#blockmenu").removeClass("fixed_menu");
+    //   }
 
-      offset = mtop+$(document).scrollTop()+"px";
-      $(name).animate({top:offset},{duration:500,queue:false});
-      //animateBlock();
+      animateBlock();
     });
   }
 
-  // offset = mtop+$(document).scrollTop()+"px";
-  // $(name).animate({top:offset},{duration:500,queue:false});
-  //animateBlock();
+  animateBlock();
 });
 function getCookie(c_name) {
   var c_value = " " + document.cookie;
@@ -189,25 +183,25 @@ $(document).ready(function() {
 
 function animateBlock() {
   /* Check the location of each desired element */
-  // $(".animated").each(function(i) {
-  //   var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 10;
+  $(".animated").each(function(i) {
+    var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 10;
 
-  //   var bottom_of_window = $(window).scrollTop() + $(window).height();
+    var bottom_of_window = $(window).scrollTop() + $(window).height();
 
-  //   /* If the object is completely visible in the window, fade it it */
+    /* If the object is completely visible in the window, fade it it */
 
-  //   if (bottom_of_window >= bottom_of_object) {
-  //     var animation = $(this).attr("data-animate");
+    if (bottom_of_window >= bottom_of_object) {
+      var animation = $(this).attr("data-animate");
 
-  //     $(this).animate(
-  //       {
-  //         opacity: "1"
-  //       },
-  //       0
-  //     );
-  //     $(this).addClass(animation);
-  //   }
-  // });
+      $(this).animate(
+        {
+          opacity: "1"
+        },
+        0
+      );
+      $(this).addClass(animation);
+    }
+  });
 }
 
 $(document)
