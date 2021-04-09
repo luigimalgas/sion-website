@@ -40,7 +40,7 @@ $(function() {
     //   } else {
     //     $("#blockmenu").removeClass("fixed_menu");
     //   }
-
+      
       animateBlock();
     });
   }
