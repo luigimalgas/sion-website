@@ -49,8 +49,8 @@ $(function() {
     });
   }
 
-  offset = mtop+$(document).scrollTop()+"px";
-  $(name).animate({top:offset},{duration:500,queue:false});
+  // offset = mtop+$(document).scrollTop()+"px";
+  // $(name).animate({top:offset},{duration:500,queue:false});
   //animateBlock();
 });
 function getCookie(c_name) {
