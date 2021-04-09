@@ -201,6 +201,9 @@
 .block .vui_block102 a {
     text-decoration: none;
 }
+.block .vui_block102 {
+    float:right;
+}
 #back_to_top_arrow img {
     height: 90px;
 }
