@@ -184,7 +184,7 @@ $(document).ready(function() {
 function animateBlock() {
   /* Check the location of each desired element */
   $(".animated").each(function(i) {
-    var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 10;
+    var bottom_of_object = $(this).offset().top + $(this).outerHeight() - 50;
 
     var bottom_of_window = $(window).scrollTop() + $(window).height();
 

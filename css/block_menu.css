@@ -22,7 +22,7 @@
   width: auto;
   background: #ffffff;
   z-index:9999;
-  display: inline-block;
+  float: right;
 }
 .block_menu > ul {
   background: inherit;
