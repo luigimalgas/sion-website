@@ -381,7 +381,8 @@ div.infobox_content.popup {
 
 .vui_block131 {
   position: relative;
-  opacity: ;
+  font-size: large;
+  text-align: center;
 }
 
 @media
@@ -475,7 +476,8 @@ div.infobox_content.popup {
 
 .vui_block150 {
   position: relative;
-  opacity: ;
+  font-size: large;
+  text-align: left;
 }
 
 @media
@@ -527,7 +529,8 @@ div.infobox_content.popup {
 
 .vui_block152 {
   position: relative;
-  opacity: ;
+  font-size: large;
+  text-align: left;
 }
 
 @media
@@ -579,7 +582,8 @@ div.infobox_content.popup {
 
 .vui_block154 {
   position: relative;
-  opacity: ;
+  font-size: large;
+  text-align: left;
 }
 
 @media
@@ -741,7 +745,8 @@ div.infobox_content.popup {
 
 .vui_block142 {
   position: relative;
-  opacity: ;
+  font-size: large;
+  text-align: left;
 }
 
 @media
@@ -793,7 +798,8 @@ div.infobox_content.popup {
 
 .vui_block144 {
   position: relative;
-  opacity: ;
+  font-size: large;
+  text-align: left;
 }
 
 @media
