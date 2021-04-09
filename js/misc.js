@@ -43,13 +43,13 @@ $(function() {
         $(name).removeClass("fixed_menu");
       }
 
-      offset = menuYloc+$(document).scrollTop()+"px";
+      offset = mtop+$(document).scrollTop()+"px";
       $(name).animate({top:offset},{duration:500,queue:false});
       //animateBlock();
     });
   }
 
-  offset = menuYloc+$(document).scrollTop()+"px";
+  offset = mtop+$(document).scrollTop()+"px";
   $(name).animate({top:offset},{duration:500,queue:false});
   //animateBlock();
 });
