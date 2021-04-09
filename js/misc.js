@@ -29,19 +29,19 @@ $(function() {
   if (fixed_menu == 1 && $(name).length) {
     var mtop = parseInt($(name).css("top").substring(0,$(name).css("top").indexOf("px")));
     $(window).scroll(function() {
-      if ($(window).scrollTop() > mtop) {
-        $(name).addClass("fixed_menu");
-        if (
-          $(name)
-            .parent()
-            .css("background-color").length == 0
-        )
-          $(name)
-            .parentsUntil("[class*=row]")
-            .css("background", "inherit");
-      } else {
-        $(name).removeClass("fixed_menu");
-      }
+      // if ($(window).scrollTop() > mtop) {
+      //   $(name).addClass("fixed_menu");
+      //   if (
+      //     $(name)
+      //       .parent()
+      //       .css("background-color").length == 0
+      //   )
+      //     $(name)
+      //       .parentsUntil("[class*=row]")
+      //       .css("background", "inherit");
+      // } else {
+      //   $(name).removeClass("fixed_menu");
+      // }
 
       offset = mtop+$(document).scrollTop()+"px";
       $(name).animate({top:offset},{duration:500,queue:false});
