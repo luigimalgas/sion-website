@@ -26,7 +26,7 @@ $(function() {
 
   if (fixed_menu == 1 && $("#blockmenu").length) {
     var mtop = $("#blockmenu").offset().top;
-    // $(window).scroll(function() {
+     $(window).scroll(function() {
     //   if ($(window).scrollTop() > mtop) {
     //     $("#blockmenu").addClass("fixed_menu");
     //     if (
@@ -45,7 +45,7 @@ $(function() {
     });
   }
 
-  animateBlock();
+  //animateBlock();
 });
 function getCookie(c_name) {
   var c_value = " " + document.cookie;
