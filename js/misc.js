@@ -33,30 +33,7 @@ $(function() {
       $(name).animate({top:offset},{duration:500,queue:false});
     });
   }); 
-//   if (fixed_menu == 1 && $("#blockmenu").length) {
-//     var mtop = $("#blockmenu").offset().top;
-//      $(window).scroll(function() {
-       
-//     //   if ($(window).scrollTop() > mtop) {
-//     //     $("#blockmenu").addClass("fixed_menu");
-//     //     if (
-//     //       $("#blockmenu")
-//     //         .parent()
-//     //         .css("background-color").length == 0
-//     //     )
-//     //       $("#blockmenu")
-//     //         .parentsUntil("[class*=row]")
-//     //         .css("background", "inherit");
-//     //   } else {
-//     //     $("#blockmenu").removeClass("fixed_menu");
-//     //   }
-      
-//       animateBlock();
-//     });
-//   }
-
-//   //animateBlock();
-// });
+  
 function getCookie(c_name) {
   var c_value = " " + document.cookie;
 
