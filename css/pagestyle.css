@@ -10,7 +10,7 @@
 	float:left;
 }	
 .float_3333 {
-    width: 30%;
+    width: 31%;
     position: relative;
     float: left;
     padding: 10px;
@@ -55,7 +55,7 @@
 
 
 .layout_1{ width:100%; min-height: 0;}
-.layout_2{ width:50%; }
+.layout_2{ width:100%; }
 .layout_3{ width:45%; }
 .layout_4{ width:25%; }
 .layout_5_left{ width:34%; }

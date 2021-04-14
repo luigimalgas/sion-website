@@ -313,7 +313,7 @@ div.infobox_content.popup {
 
 .vui_block129 {
   position: relative;
-  opacity: ;
+  text-align: center;
 }
 
 @media
@@ -1373,4 +1373,8 @@ body {
 #google_translate_element {
   z-index: 10000 !important;
   position: fixed !important;
+}
+
+.vui_row148 span {
+  font-size: larger;
 }
